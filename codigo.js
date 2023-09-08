@@ -27,7 +27,7 @@ function buscarProductoPorNombre(nombre) {
 
 
 function mostrarPropiedadesProducto(producto) {
-    alert("Nombre del producto: " + producto.nombre + "\nMétodo de elaboración: " + producto.elaboracion + "\nPrecio: $" + producto.precio);
+    alert("El siguiente producto ha sido añadido satisfactoriamente a su carrito:"+"\nNombre: " + producto.nombre + "\nMétodo de elaboración: " + producto.elaboracion + "\nPrecio: $" + producto.precio);
 }
 
 function seleccionarYMostrarProducto() {
@@ -40,7 +40,7 @@ function seleccionarYMostrarProducto() {
         mostrarPropiedadesProducto(productoSeleccionado);
 
     } else {
-        alert("El producto no se encuentra en nuestro catálogo.");
+        alert("El producto seleccionado no se encuentra en nuestro catálogo.");
     }
 }
 
@@ -70,72 +70,6 @@ let envio= prompt("¿Desea que le enviemos el/los producto/s a su domicilio? 1:S
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-/* 
-let nombre = prompt("Ingrese su nombre completo")
-    alert("¡Bienvenid@ "+nombre+"!");
-
-let direccionDomicilio = prompt("Ingrese la direccón de su domicilio");
-
-let nombreProducto = prompt("Ingrese el nombre del producto que desea comprar (presione 0 para salir)");
-
-while(nombreProducto!= "0"){
-
-switch(nombreProducto){
-    case "Taza Flora":
-        alert("Usted a seleccionado comprar el artículo: Taza Flora= $3000");
-        break;
-    case "Cuenquito":
-        alert("Usted a seleccionado comprar el artículo: Cuenquito= $2500");
-        break;
-    case "Platito Amor":
-        alert("Usted a seleccionado comprar el artículo: Platito Amor= $1500");
-        break;
-    case "Plato Circular Primavera":
-        alert("Usted a seleccionado comprar el artículo: Plato Circular Primaveras= $2500");
-        break
-    case "Set de plato y taza Primavera":
-        alert("Usted a seleccionado comprar el artículo: Set de plato y taza primavera= $6500");
-        break;
-    case "Plato Ovoide Primavera":
-        alert("Usted a seleccionado comprar el artículo: Plato Ovoide Primavera= $2500");
-        break                
-    default:
-        alert("Sin stock");
-        break;
-
-}nombreProducto = prompt("Ingrese el nombre del producto que desea comprar (presione 0 para salir)");
-} 
-
- ;*/
 
 
  
