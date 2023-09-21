@@ -1,5 +1,5 @@
 let nombre = prompt("Ingrese su nombre completo")
-    alert("¡Bienvenid@ "+nombre+"!");
+    alert("¡Bienvenid@ a nuestro sitio web "+nombre+"!");
 
 let direccionDomicilio = prompt("Ingrese la direccón de su domicilio");
 
