@@ -1,9 +1,31 @@
-let nombre = prompt("Ingrese su nombre completo")
-    alert("¡Bienvenid@ "+nombre+"!");
+const localStorageKey = 'ecommerce_data';
 
-let direccionDomicilio = prompt("Ingrese la direccón de su domicilio");
+let ecommerceData = localStorage.getItem(localStorageKey);
 
+if (!ecommerceData) {
+  ecommerceData = {
+    nombre: '',
+    direccionDomicilio: '',
+    productosSeleccionados: [],
+    envioDomicilio: false,
+  };
+} else {
+  ecommerceData = JSON.parse(ecommerceData);
+}
 
+function guardarDatosEnLocalStorage() {
+  localStorage.setItem(localStorageKey, JSON.stringify(ecommerceData));
+}
+
+let nombre = ecommerceData.nombre || prompt('Ingrese su nombre completo');
+ecommerceData.nombre = nombre;
+guardarDatosEnLocalStorage();
+alert('¡Bienvenid@ ' + nombre + '!');
+
+let direccionDomicilio =
+  ecommerceData.direccionDomicilio || prompt('Ingrese la dirección de su domicilio');
+ecommerceData.direccionDomicilio = direccionDomicilio;
+guardarDatosEnLocalStorage();
 
 function Producto (nombre, elaboracion, precio) {
         this.nombre  = nombre.toUpperCase();
@@ -67,9 +89,3 @@ let envio= prompt("¿Desea que le enviemos el/los producto/s a su domicilio? 1:S
     }
  }
  informarEnvio(envioDomicilio,direccionDomicilio)
-
-
-
-
-
- 
