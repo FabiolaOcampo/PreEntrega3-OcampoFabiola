@@ -1,0 +1,40 @@
+{
+    "productos": [
+      {
+        "nombre": "Taza Flora",
+        "descripcion": "Taza baja con asa grande, hecha a mano decorada con engobe negro en forma de hojas pequeñas.",
+        "precio": 3000,
+        "imagen": "imagenes/taza flora.jpg"
+      },
+      {
+        "nombre": "Cuenquito",
+        "descripcion": "Cuenco pequeño hecho en torno alfarero.",
+        "precio": 2500,
+        "imagen": "imagenes/Cuenquito.jpg"
+      },
+      {
+        "nombre": "Platito Amor",
+        "descripcion": "Pequeño platito con forma de corazón, pintado con engobe rojo y esgrafiado en su superficie de forma aleatoria.",
+        "precio": 1500,
+        "imagen": "imagenes/plato corazon.jpg"
+      },
+      {
+        "nombre": "Plato Circular Primavera",
+        "descripcion": "Plato mediano de forma irregular, de fondo color hueso y decoración con engobe negro en forma de hojas pequeñas y manchas de colores amarillo, lila y coral pastel.",
+        "precio": 2500,
+        "imagen": "imagenes/plato circular primavera.jpg"
+      },
+      {
+        "nombre": "Set de plato y taza Primavera",
+        "descripcion": "Set de bandeja mediana ovoide con taza sin asa, de fondo color hueso y decoración con engobe negro en forma de hojas pequeñas y manchas de colores amarillo, lila y coral pastel.",
+        "precio": 6500,
+        "imagen": "imagenes/Set de plato y taza primavera.jpg"
+      },
+      {
+        "nombre": "Plato Ovoide Primavera",
+        "descripcion": "Bandeja mediana de forma ovoide, de fondo color hueso y decoración con engobe negro en forma de hojas pequeñas y manchas de colores amarillo, lila y coral pastel.",
+        "precio": 2500,
+        "imagen": "imagenes/Plato ovoide primavera.jpg"
+    }
+]
+}
